@@ -1,0 +1,89 @@
+/* *{
+    color: black;
+} */
+
+.Twitter::before{
+    content: "";
+    background: url(https://beebom.com/wp-content/uploads/2023/08/This-image-represents-the-former-Twitter-logo-and-the-new-Twitter-logo-projected-via-two-different-smartphones.jpg?w=730&h=487&crop=1&quality=75) no-repeat center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+}
+
+.heading{
+    text-align: center;
+    /* font-size: larger; */
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+
+#box1{
+    margin: auto;
+    max-width: 970px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+    color: black;
+}
+
+#test{
+    border: 2px solid black;
+    display: flex;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 5px 8px 10px black;
+}
+
+.box2{
+    text-align: center;
+    width: 50%;
+    /* height: 200px; */
+    border-right: 2px dotted black;
+    
+}
+.box2 h3{
+    position: sticky;
+}
+
+.box3{
+    text-align: center;
+    width: 50%;
+    height: 390px;
+    color: white;
+}
+
+form{
+    position: sticky;
+    
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    scale: 105%;
+    background-color: rgb(200, 197, 197);
+    color: black;
+}
+
+.result{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+textarea{
+    height: 100%;
+}
