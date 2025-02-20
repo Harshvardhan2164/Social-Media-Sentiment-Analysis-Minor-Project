@@ -1,0 +1,82 @@
+/* *{
+    background-color: beige;
+    
+} */
+
+.navbar{
+    position: relative;
+}
+
+#heading{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* background-color: lightcyan; */
+}
+
+a img{
+    width: 190px;
+    height: 140px;
+    margin: 40px;
+    padding: 10px;
+}
+
+#img1:hover{
+    scale: 115%;
+}
+
+#img2:hover{
+    scale: 115%;
+}
+
+#img3:hover{
+    scale: 115%;
+}
+
+#about{
+    margin-top: 210px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 50px;
+    border-top: 2px solid black;
+    background-color: beige;
+    height: 1200px;
+    border-bottom: 2px solid black;
+}
+
+#about p{
+    width: 80%;
+    font-size: 1.1rem;
+    
+}
+
+#contactus{
+    margin-top: 0px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 50px;
+    border-bottom: 2px solid black;
+    background-color: lightcyan;
+    height: 300px;
+
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-size: small;
+}
